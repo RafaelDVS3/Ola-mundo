@@ -1,0 +1,17 @@
+.navegacao {
+    height: 112px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 100PX;
+    align-items: center;
+    column-gap: 3rem;
+    background-color: rgb(226, 190, 212);
+   
+}
+
+ 
+@media (max-width: 744px) {
+    .navegacao {
+        height: 72px;
+    }
+}
